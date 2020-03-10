@@ -1,4 +1,4 @@
-package utils;
+package krepsinis.utils;
 
 public class Validation {
 }
