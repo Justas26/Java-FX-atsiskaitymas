@@ -77,6 +77,7 @@ public class UserDAO {
             msg = "New user successfully added";
         } catch (SQLException e) {
             e.printStackTrace();
+            if(msg.equals(user.getUsername()))
             msg = "Failure adding new user";
         }
         return msg;

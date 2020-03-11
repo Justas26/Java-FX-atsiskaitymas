@@ -20,7 +20,7 @@ public class Krepsinis {
     }
 
     // for create
-    public Krepsinis(String teamName, String nameSurname, String sponsors, String racingCars, int members, int userid) {
+    public Krepsinis(String teamName, String nameSurname, String league, String sponsors, int teams, int userid) {
         this.teamName = teamName;
         this.nameSurname = nameSurname;
         this.league = league;
