@@ -41,9 +41,9 @@ public class Validation {
         Matcher matcher = pattern.matcher(surName);
         return matcher.find();
     }
-    public static boolean isValidID(String ID) {
+    public static boolean isValidID(String id) {
         Pattern pattern = Pattern.compile(NAME_ID_REGEX_PATTERN);
-        Matcher matcher = pattern.matcher(ID);
+        Matcher matcher = pattern.matcher(id);
         return matcher.find();
     }
 }
