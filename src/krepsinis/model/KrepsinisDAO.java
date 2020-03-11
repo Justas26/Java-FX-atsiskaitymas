@@ -3,7 +3,7 @@ package krepsinis.model;
 import java.sql.*;
 
 public class KrepsinisDAO {
-        final static String URL = "jdbc:mysql://localhost:3306/db";
+        final static String URL = "jdbc:mysql://localhost:3306/krepsinis";
         public String add(Krepsinis krepsinis){
             String query = "insert into krepsinis (team_name, name_surname, league, sponsors, teams, user_id)" +
                     "values (?,?,?,?,?,?)";
